@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra Bag</title>
+    <link rel="stylesheet" href="myntra.css">
+    
+</head>
+<body>
+    <button class="add-button" onclick="cartQuantity = cartQuantity+1">Add to iteam</button>
+    <button class="move-button" onclick="">MOVE TO WISHLIST</button>
+    <button class="sale-button" onclick="">Add 1+1 iteam in Bag</button>
+    <h3 id = "cart-summary"> your bag has zero iteam </h3>
+
+    <script>
+        let cartQuantity =0;
+
+
+document.querySelector("#cart-summary").innerText = "Your bag has " + cartQuantity + " iteams";
+    </script>
+    
+</body>
+</html>
