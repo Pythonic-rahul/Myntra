@@ -1,4 +1,4 @@
-let cartQuantity =0;
-//console.log(cartQuantity);
+let cartQuantity =4;
 
-document.querySelector("#cart-summary").innerText = "Your bag has " + cartQuantity + " iteams";
+
+document.querySelector("#cart-summary").innerText = 'your Bag has ${cartQuantity} items';

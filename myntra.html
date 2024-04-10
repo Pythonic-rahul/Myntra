@@ -8,17 +8,12 @@
     
 </head>
 <body>
-    <button class="add-button" onclick="cartQuantity = cartQuantity+1">Add to iteam</button>
+    <button class="add-button" onclick="cartQuantity = cartQuantity+1; document.querySelector('#cart-summary').innerText = 'Your bag has ' + cartQuantity + ' iteams';">Add to iteam</button>
     <button class="move-button" onclick="">MOVE TO WISHLIST</button>
     <button class="sale-button" onclick="">Add 1+1 iteam in Bag</button>
     <h3 id = "cart-summary"> your bag has zero iteams </h3>
 
-    <script>
-        let cartQuantity =0;
 
-
-document.querySelector("#cart-summary").innerText = "Your bag has " + cartQuantity + " iteams";
-    </script>
-    
+    <script src="myntra.js"></script>
 </body>
 </html>
