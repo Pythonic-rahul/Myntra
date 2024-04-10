@@ -1,0 +1,16 @@
+.add-button{
+    background-color: aqua;
+    padding: 25px,25px,15px,15px;
+    border-radius: 10px;
+    border:none;
+}
+.move-button{
+    background-color: rgb(165, 214, 74);
+    border: none;
+    border-radius: 10px;
+}
+.sale-button{
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+}
